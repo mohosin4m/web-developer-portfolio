@@ -16,6 +16,19 @@ body{
     padding: 15px 35px;
 }
 
+.section-title {
+    color: red;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700px;
+}
+
+.section-description{
+    color:#474747;
+    text-align: center;
+    font-size: 18px;
+}
+
 /* nav related style */
 nav{
     display: flex;
@@ -46,12 +59,37 @@ nav a{
 
 header{
     background-color: #fff8f3;
+    /* background-image: url( ../images/background-images.jpeg); */
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 .banner{
     padding: 30px 30px 30px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .banner .profail-picture{
     width: 250px;
+}
+
+.banner-content{
+    max-width: 500px;
+}
+
+.banner-greeting{
+ font-size: 30px;
+ color: #474747;
+ margin-bottom: 0px;
+}
+
+.banner-title{
+font-size: 40px;
+font-weight: 700;
+margin: top 0px; ;
+}
+.about{
+     padding: 130px;
+    border-radius: 10px;
+    background-color: aqua;
 }
